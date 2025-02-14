@@ -1,8 +1,8 @@
-#ifndef UTILS_H
-#define UTILS_H
+#ifndef UTILS_HPP
+#define UTILS_HPP
 
 int add(int a, int b);
 void printMessage(const std::string& message);
 
-#endif // UTILS_H
+#endif // UTILS_HPP
 
