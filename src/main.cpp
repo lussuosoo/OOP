@@ -2,9 +2,13 @@
 #include "utils.hpp"
 
 int main() {
-    int result = add(3, 4);
-    std::cout << "Результат сложения: " << result << std::endl;
+    int sum = add(3, 4);
+    std::cout << "Сумма: " << sum << std::endl;
+
+    int product = multiply(3, 4);
+    std::cout << "Произведение: " << product << std::endl;
 
     printMessage("Привет, мир!");
+
     return 0;
 }
